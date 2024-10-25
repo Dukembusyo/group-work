@@ -1,0 +1,75 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+/* Sale Section */
+.sale {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #ffe6e6;
+}
+
+.sale .product {
+    text-align: center;
+}
+
+.sale .product img {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Size Selection Section */
+.size-selection {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.size-options {
+    margin: 10px 0;
+}
+
+.size-options button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* Featured Collections */
+.featured-collections {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.collections {
+    display: flex;
+    justify-content: space-around;
+}
+
+.collections .collection img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Width Selection Section */
+.width-selection {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.width-options button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+}
