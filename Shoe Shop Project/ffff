@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover More</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="discover-more">
+        <div class="item">
+            <img src="first-shoes.jpg" alt="First Shoes">
+            <h3>First Shoes</h3>
+            <p>GROWING FEET IN SAFE HANDS</p>
+            <a href="#">Explore Clarks First Shoes</a>
+        </div>
+
+        <div class="item">
+            <img src="playprints-world.jpg" alt="PlayPrints World">
+            <h3>PlayPrints World on Roblox</h3>
+            <p>DREAM IT. MAKE IT. PLAY IT.</p>
+            <a href="#">Visit PlayPrints World</a>
+        </div>
+
+        <div class="item">
+            <img src="torhill.jpg" alt="Torhill">
+            <h3>Torhill</h3>
+            <p>CAT BURNS IN TORHILL</p>
+            <a href="#">Shop the Torhill Collection</a>
+        </div>
+    </section>
+
+    <section class="newsletter-signup">
+        <h2>SIGN UP FOR EMAILS TO GET OUR LATEST NEWS AND UNMISSABLE OFFERS</h2>
+        <form action="#">
+            <div class="checkboxes">
+                <label><input type="checkbox" name="women"> Women</label>
+                <label><input type="checkbox" name="men"> Men</label>
+                <label><input type="checkbox" name="kids"> Kids</label>
+                <label><input type="checkbox" name="originals"> Originals</label>
+            </div>
+            <input type="email" name="email" placeholder="Enter email address" required>
+            <button type="submit">Join Us</button>
+        </form>
+        <p>By signing up to Clarks marketing emails, you agree to our <a href="#">Privacy Policy</a>. You can <a href="#">unsubscribe</a> at any time. <a href="#">Terms apply.</a></p>
+    </section>
+</body>
+</html>
